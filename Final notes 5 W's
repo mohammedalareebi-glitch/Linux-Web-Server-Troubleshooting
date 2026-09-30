@@ -1,0 +1,7 @@
+Conclusion: The Five Ws
+Who: I performed the investigation using my mohammed account.
+What: The nginx web server became unavailable after I deliberately stopped it. I investigated the outage and restored the service.
+When: September 28, 2026. The logs recorded the service stopping at 21:17:58 EDT and restarting at 21:43:06 EDT.
+Where: My Debian 13 virtual machine, soc-lab, running in VirtualBox. I tested the web server locally at http://127.0.0.1.
+Why: I created a controlled outage to practice checking service status, reviewing logs, restoring availability, and documenting findings.
+Resolution: I started nginx again and confirmed that the service was active and running. The local HTTP test returned 200 OK, confirming that the web server was responding again.
